@@ -1,0 +1,149 @@
+body{
+    font-family: 'Oswald', sans-serif !important;
+
+}
+
+nav{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9FC5C6;
+}
+
+.ul_menu{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 10px 30px 10px 30px;
+    font-size: 22px;
+    color: black;
+}
+
+.block1{
+    margin: 20px 0px 20px 0px;
+    width : 45%;
+    height: 100%;
+}
+.block1_bis{
+    width : 45%;
+    height: 100%;
+}
+
+.block2{
+    width: 35%;
+    height: 100%;
+    background-color: rgba(95, 158, 160, 0.589);
+}
+.block2_bis{
+    width: 35%;
+    height: 100%;
+}
+
+.blocs{
+    display : flex; 
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.bouton a {
+    display:block;
+    width:220px;
+    line-height:50px;
+    text-align:center;
+    vertical-align: middle;
+    background-color: #4A148C;
+    color:white;
+    text-decoration:none;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.bouton a:hover {
+    background-color:white;
+    color : #4A148C;
+    box-shadow: grey;
+}
+select {
+    width: 300px;
+    height: 33px;
+    font-size: 16px;
+    padding: 4px 1px 1px 1px;
+}
+.block_search_praticiens {
+    width: 100%;
+    height: 70px;
+}
+.block_search_praticiens2{
+    width : 75%;
+    height: 70px;
+    background-color: rgba(95, 158, 160, 0.589);
+}
+
+.input_search{
+    width : 400px;
+    height: 20px;
+    color: black;
+    font-family: 'Oswald', sans-serif !important;
+}
+.input_search::placeholder{
+    color: grey;
+}
+.input_location{
+    width : 300px;
+    height: 20px;
+    color: grey;
+    font-family: 'Oswald', sans-serif !important;
+}
+.input_location::placeholder{
+    width : 300px;
+    height: 20px;
+    color: grey;
+}
+.space_around{
+    justify-content: space-around;
+    
+}
+.align_item{
+    align-items: flex-start;
+}
+
+.bloc_liste{
+    width:100%;
+    justify-content: space-around;
+}
+
+.bloc_medecin_ophtalmo{
+    width: 380px;
+    /*background-color: indigo;*/
+}
+
+.bloc_pharmaciens_orl{
+    width: 380px;
+    /*background-color: khaki;*/
+}
+.bloc_infirmier_cardiologue{
+    width: 380px;
+    /*background-color: lawngreen;*/
+}
+
+.line{
+    position: absolute;
+    width: 323px;
+    height: 0px;
+    border: 2px solid #FB3640;
+    border-radius: 20px;
+}
+
+.li_praticien{
+    font-size: 18px;
+    background-color: rgb(192, 192, 192);
+}
